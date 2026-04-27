@@ -2,7 +2,7 @@ import Reveal from "./Reveal";
 
 const Card = ({img,name,txt,p}) => {
     return ( <div className="pt-8 flex px-4 gap-4 pb-4 bg-stone-50 rounded-3xl shadow-2xl  ">
-        <Reveal>
+       
          <div className="w-36 md:w-2xs">
            {img}
         </div>
@@ -15,7 +15,7 @@ const Card = ({img,name,txt,p}) => {
               </div>
               
         </div>
-        </Reveal>
+       
     </div> );
 }
  
